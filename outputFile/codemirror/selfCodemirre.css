@@ -1,0 +1,10 @@
+.CodeMirror {
+    height: 100%;
+    width: 100%;
+    font-size: 0.10625rem;
+}
+
+.CodeMirror-scroll {
+    /* max-height: 300%; */
+    text-align: left;
+}

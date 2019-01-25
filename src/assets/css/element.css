@@ -1,0 +1,52 @@
+/* element导航 */
+
+.el-menu--horizontal>.el-menu-item {
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+
+.el-menu-demo {
+    height: 42px;
+}
+
+.el-menu--horizontal>.el-submenu .el-submenu__title {
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+
+.el-menu--horizontal>.el-menu-item {
+    border: none;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+    border: none;
+}
+
+.el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
+    border: none;
+}
+
+.el-dropdown-menu__item--divided:before,
+.el-menu,
+.el-menu--horizontal>.el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal>.el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+    background: rgba(12, 69, 87, 0.95);
+}
+
+.el-menu--horizontal {
+    background: none;
+    border: none;
+    background-size: cover;
+}
+
+.el-menu--horizontal .el-menu .el-menu-item {
+    background: rgba(12, 69, 87, 0.95);
+}
+
+.el-menu--popup {
+    min-width: 120px;
+    text-align: center;
+}
